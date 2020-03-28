@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">loginTimetable</string>
+    <string name="title_activity_maint_time_tableapp">maintTimeTableapp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Settings</string>
+    <string name="menu_slideshow">Feedback</string>
+    <string name="menu_tools">Rate us</string>
+    <string name="menu_share">Developers</string>
+    <string name="menu_send">Logout</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

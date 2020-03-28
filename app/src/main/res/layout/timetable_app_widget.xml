@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:padding="0dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Da"
+            android:textSize="40sp"
+            android:textColor="#70000000"
+            android:layout_marginLeft="10sp"
+            android:padding="2sp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/Day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="DAY"
+                android:layout_marginTop="20dp"
+                android:textSize="10sp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="8:00-4:00"
+                android:textSize="10sp">
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="end"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/go_to_app"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/app_logo"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#60000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time_table"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:text="PBL_lab || EM || EG || ES-2 || EM-2"
+        android:textSize="15sp"
+        android:paddingLeft="30dp"
+        android:textColor="#50ffffff"
+        android:gravity="center_vertical" />
+
+
+</LinearLayout>

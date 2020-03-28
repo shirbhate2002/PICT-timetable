@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maintTimeTableapp">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1">
+            </TextView>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="0dp"
+            app:lottie_loop="true"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:filterTouchesWhenObscured="true"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/a">
+        </com.airbnb.lottie.LottieAnimationView>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <include layout="@layout/content_maint_time_tableapp" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
